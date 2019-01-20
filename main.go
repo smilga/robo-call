@@ -17,7 +17,7 @@ func main() {
 	}
 	flag.Parse()
 
-	//25765040
+	
 	numbers := readCSVFile(*flag.String("file", "phones.csv", "CSV with telephone nrs"))
 	audioFile := readFile(*flag.String("audio", "sound.wav", "wav audio to playback when connected"))
 
